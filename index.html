@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <!--I added a title to the website to give it a better look-->
+    <title>Horiseon</title>
 </head>
 
 <body>
-    <div class="header">
+    <!--I changed the div to header so I could read the code more easily-->
+    <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -23,10 +25,11 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
+    </header>
+    <header class="hero"></header>
+    <header class="content">
+        <!--the SEO link wasn't working because there was no id tag, so I changed it to id and then added the class-->
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -47,8 +50,8 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
-    <div class="benefits">
+    </header>
+    <header class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
@@ -70,13 +73,14 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </header>
+    <!--I changed the div to footer to read the code more easily and have it be more accessible on different browsers-->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
